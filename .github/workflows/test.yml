@@ -158,7 +158,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: false
-          tags: maturin
+          tags: maturin:latest
           cache-from: type=registry,ref=pyo3/maturin:main
       - name: Test the Docker container
         run: ./test-dockerfile.sh
