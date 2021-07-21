@@ -46,6 +46,8 @@ pub use {
     crate::registry::Registry,
     crate::upload::{upload, UploadError},
 };
+pub use crate::auditwheel::Policy;
+pub use crate::build_context::ProjectLayout;
 
 mod auditwheel;
 mod build_context;
