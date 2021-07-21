@@ -41,6 +41,8 @@ pub use crate::target::Target;
 #[cfg(feature = "upload")]
 pub use crate::upload::{upload, upload_ui, PublishOpt, Registry, UploadError};
 pub use auditwheel::PlatformTag;
+pub use crate::auditwheel::Policy;
+pub use crate::build_context::ProjectLayout;
 
 mod auditwheel;
 mod build_context;
