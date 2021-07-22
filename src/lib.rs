@@ -34,7 +34,12 @@ pub use crate::compile::compile;
 pub use crate::develop::develop;
 pub use crate::metadata::{Metadata21, WheelMetadata};
 pub use crate::module_writer::{
-    write_dist_info, ModuleWriter, PathWriter, SDistWriter, WheelWriter,
+    write_dist_info,
+    ModuleWriter,
+    PathWriter,
+    SDistWriter,
+    WheelWriter,
+    generate_cffi_declarations,
 };
 pub use crate::pyproject_toml::PyProjectToml;
 pub use crate::python_interpreter::PythonInterpreter;
