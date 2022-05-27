@@ -273,7 +273,7 @@ impl BuildContext {
         }
     }
 
-    fn auditwheel(
+    pub fn auditwheel(
         &self,
         artifact: &Path,
         platform_tag: &[PlatformTag],
